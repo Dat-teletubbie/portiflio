@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    
+}
+.bothofthese{
+    gap: 20px;
+}
+body {
+    background: rgba(167, 5, 237, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.goodytwo{
+    font-size: larger;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 80px;
+
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.aboutbody {
+    display: flex;
+    gap: 30px;
+}
+
+.about {
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 19px 29px;
+    
+    
+
+}
+.goody{
+    font-size:2rem ;
+}
+.givemeit {
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: grey;
+    height: 50px;
+    width: 100px;
+
+}
+
+.asian {
+    width: 200px
+}
+
+.projectbody {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project {
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 19px 29px;
+
+}
+.imagething{
+    width: 300px;
+    height: 200px;
+}
+.imgbody {
+   text-decoration: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.givememine {
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.moiskills {
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 19px 29px;
+    
+}
+
+
+
+.hobby {
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    padding: 19px 29px;
+}
+
+.hobbybody {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    border-radius: 15px;
+}
+.imagething{
+
+}
+input,
+textarea {
+    width: 90%;
+    margin: 5px;
+    padding: 10;
+   background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.contact {
+    padding: 10px 15px;
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    padding: 19px 29px;
+}
+
+.bigmen {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+.lake{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.berygud{
+    font-size: 1.5rem;
+    color: rgb(98, 0, 255);
+    display: flex;
+    justify-content: space-between;
+}
+@media{
+   goodytwo{
+    width: 20%;
+   } 
+}
